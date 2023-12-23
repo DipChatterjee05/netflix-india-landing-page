@@ -1,6 +1,4 @@
-# Project Name
-
-### Netflix India Landing Page
+# Netflix India Landing Page
 
 ## Project Description
 
