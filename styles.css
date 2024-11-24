@@ -202,12 +202,12 @@ input[type='radio'] {
     transition: max-height 0.5s, padding 0.5s;
 }
 
-.accordion input[type="radio"]:checked + label + .content {
+.accordion input[type="radio"]:checked+label+.content {
     max-height: 600px;
     padding: 30px 20px;
 }
 
-.accordion input[type="radio"]:checked + label::after {
+.accordion input[type="radio"]:checked+label::after {
     transform: rotate(135deg);
 }
 
@@ -292,11 +292,12 @@ input[type='radio'] {
     }
 
     .email-signup button {
-       font-size: 12px;
-       padding: 10px 15px;
+        font-size: 12px;
+        padding: 10px 15px;
     }
 
-    .text-column, .image-column {
+    .text-column,
+    .image-column {
         flex-basis: 100%;
     }
 
@@ -308,7 +309,8 @@ input[type='radio'] {
         font-size: 15px;
     }
 
-    .row:nth-child(2), .row:nth-child(4) {
+    .row:nth-child(2),
+    .row:nth-child(4) {
         flex-direction: column-reverse;
     }
 
